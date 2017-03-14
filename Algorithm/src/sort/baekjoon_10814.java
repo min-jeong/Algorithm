@@ -14,7 +14,6 @@ import java.util.StringTokenizer;
  * https://www.acmicpc.net/problem/10814
  * 나이순 정렬
  * @author minjung
- *
  */
 public class baekjoon_10814 {
 
