@@ -21,13 +21,13 @@ public class baekjoon_2399 {
 	}
 	
 	private void solve(int n) {
-		int[] x = new int[n];
+		long[] x = new long[n];
 		
 		for ( int i = 0; i < n; i++ ){
 			x[i] = sc.nextInt();
 		}
 		
-		int sum = 0;
+		long sum = 0;
 		for (int i = 0; i < n; i++ ){
 			for ( int j = 0; j < n; j++ ){
 				sum = sum + Math.abs(x[i] - x[j]);
